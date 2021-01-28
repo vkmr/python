@@ -14,16 +14,14 @@ Below are the requirements for the program:
 #### The Data
 The file: http://courses.cms.caltech.edu/cs11/material/advjava/lab1/sowpods.zip contains all "valid Scrabble English" words in the official words list, one word per line.
 
-An example invocation and output:
+Examples of invocation and output:
 ```
 $ python scrabble.py "ZAEFIEE"
 
-Examples for wildcard invocation and output:
-```
 $ python scrabble.py "?F"
 
 $ python scrabble.py "PEN*?in"
 
 Additional logic to enter Specific letter and its location can also be taken up be in order "letter location" eg: 'P' 0
-```
+
 $ python scrabble.py "PENguin" 'P' 0 'E' 1
